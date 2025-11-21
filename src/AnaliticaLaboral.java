@@ -5,6 +5,8 @@ public class AnaliticaLaboral {
     private List<Habilidad> habilidadesMasDemandadas;
     private List<Habilidad> predicciones6Meses;
 
+    public AnaliticaLaboral(){};
+
     public AnaliticaLaboral(List<Habilidad> habilidadesMasDemandadas, List<Habilidad> predicciones6Meses) {
         this.habilidadesMasDemandadas = habilidadesMasDemandadas;
         this.predicciones6Meses = predicciones6Meses;
