@@ -4,6 +4,7 @@ import java.sql.*;
 public class ConexionBD {
     //atributos propiedades
 
+
     private String url;
     private Connection connection;
     private Statement statement;
